@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color: grey;color: pink;">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Registration</title>
+    <center>
+        <h1>Registartion</h1>
+    </center><br><br>
+    <script src="app.js"></script>
+
+</head>
+
+<body>
+    <div id="div">
+        <center>
+            <form action="success.html" method="get">
+                <h2>Name:- </h2><input type="text" id="name" placeholder="Enter name here" required max="50">
+                <h2>Email:- </h2><input type="email" name="email" id="email" placeholder="Enter email id here" required max="25">
+                <h2>Contact number:- </h2><input type="number" name="number" id="number" placeholder="Enter number here" required max="10">
+                <h2>Date of birth:- </h2><input type="date" name="dob" id="dob" required><br><br><br>
+                <input type="submit" value="submit" onclick="onSubmit()">
+            </form><br>
+            <p id="demo"></p>
+        </center>
+    </div>
+</body>
+
+</html>
